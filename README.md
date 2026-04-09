@@ -181,37 +181,6 @@ docker-compose up -d
 ### Recommended for Learning
 Use the local Docker Compose setup - it's production-like and costs nothing.
 
-## What This Demonstrates to Recruiters
-
-### Technical Skills Validated
-
-```
-Prometheus            ████████████████████  Expert
-Grafana Dashboards    ████████████████████  Expert
-Metrics Collection    ████████████████████  Expert
-Alert Rules           ████████████████░░░░  Intermediate
-Container Monitoring  ████████████████░░░░  Intermediate
-Docker Compose        ████████████████████  Expert
-Observability         ████████████████████  Expert
-SLO/SLA Monitoring    ████████████████░░░░  Intermediate
-```
-
-### Key Monitoring Concepts Demonstrated
-
-1. **RED Method**: Rate, Errors, Duration
-2. **USE Method**: Utilization, Saturation, Errors
-3. **Four Golden Signals**: Latency, Traffic, Errors, Saturation
-4. **Alert Severity Levels**: Critical, Warning, Info
-5. **Time-Series Metrics**: Counters, Gauges, Histograms
-
-### Common Interview Topics
-
-- "How would you monitor a production web application?"
-- "What are the differences between counters, gauges, and histograms?"
-- "How do you set up alerting for a service?"
-- "Design a monitoring strategy for microservices"
-- "How would you debug a high-latency issue?"
-
 ## Alert Rules Explained
 
 ```yaml
